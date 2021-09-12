@@ -1,0 +1,22 @@
+.inner {
+  overflow-y: scroll;
+  height: 100%;
+  position: relative;
+}
+
+.first {
+  margin-bottom: 1200px;
+}
+
+.second {
+  padding-bottom: 120px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 16px);
+  background-color: yellow;
+}
