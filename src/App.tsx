@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <div className="inner">
-        Bar
         <p className="first">Foo</p>
         <p className="second">Bar</p>
       </div>
